@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - DriveWay</title>
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Cabeçalho e Navegação -->
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html" aria-label="Ir para a página inicial">
+                <img src="img/logo.png" alt="Logo DriveWay">
+            </a>
+        </div>
+    
+        <!-- Botão de hamburger (visível apenas em telas pequenas) -->
+        <div class="hamburger" role="button" tabindex="0" aria-label="Abrir menu">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    
+        <!-- Links de navegação -->
+        <ul class="nav-links" id="menu-principal" role="menubar">
+            <li role="none"><a role="menuitem" href="index.html">Home</a></li>
+            <li role="none"><a role="menuitem" href="register.html">Registre-se</a></li>
+            <li role="none" id="userStatus" style="display: flex; align-items: center; gap: 10px;">
+                <!-- Conteúdo preenchido via JavaScript -->
+            </li>
+            <li>
+                <div class="nav-icons" id="navLoginIcon">
+                    <a href="login.html" aria-label="Entrar">
+                        <p>Entre aqui</p>
+                        <img src="img/login.png" alt="Ícone de login" loading="lazy">
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    
+</header>
+
+
+<main class="ajuda-container">
+    <section class="ajuda-introducao">
+        <h1>Central de Ajuda</h1>
+        <p>Está com dúvidas? Estamos aqui para te ajudar a aproveitar ao máximo a experiência no DriveWay!</p>
+    </section>
+
+    <section class="faq">
+        <h2>Perguntas Frequentes (FAQ)</h2>
+        <div class="faq-item">
+            <h3>Como posso anunciar meu carro?</h3>
+            <p>Você pode anunciar seu veículo entrando em contato conosco.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Preciso pagar para vizualizar os carros?</h3>
+            <p>Não! A pesquisa é totalmente gratuita. Você pode vizualizar a vontade.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Como entrar em contato com o vendedor?</h3>
+            <p>Dentro do site temos o número para contato.</p>
+        </div>
+    </section>
+
+    <section class="contato-ajuda">
+        <h2>Precisa de atendimento personalizado?</h2>
+        <p>Nossa equipe está pronta para te atender:</p>
+        <ul>
+            <li>📞 Atendimento telefônico: <strong>0800-999-999</strong></li>
+            <li>💬 WhatsApp: <strong>(99) 99999-9999</strong></li>
+            <li>📧 E-mail: <strong>suporte@driveway.com</strong></li>
+        </ul>
+    </section>
+
+    <section class="tutorial">
+        <h2>Navegando pelo DriveWay</h2>
+        <ol>
+            <li>Crie sua conta ou faça login</li>
+            <li>Confira modelos de veículos</li>
+            <li>Dê Likes</li>
+            <li>Entre em contato</li>
+        </ol>
+    </section>
+</main>
+
+
+
+<!-- Rodapé -->
+<footer>
+    <div class="footer-container">
+        <!-- Seção de Logo e Endereço -->
+        <section class="footer-section logo-section">
+            <h2>DriveWay</h2>
+            <h3>Nosso Endereço</h3>
+            <address>
+                <p>Visite-nos em nossa sede para conhecer mais sobre nossos serviços e produtos!</p>
+                <p>Rua Itajubá, 673, Curitiba - PR</p>
+                <br>
+                <div class="map-container">
+                    <iframe class="mapa" 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.0233748689816!2d-49.28594822510963!3d-25.469897777742493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce46c0e88a5f9%3A0x6e0f2e6ff8f0e5d0!2sRua%20Itajub%C3%A1%2C%20673%20-%20Port%C3%A3o%2C%20Curitiba%20-%20PR%2C%2081070-190!5e0!3m2!1spt-BR!2sbr!4v1697907074293!5m2!1spt-BR!2sbr">
+                    </iframe>
+                </div>
+            </address>
+        </section>
+
+        <!-- Seção de Central de Relacionamento -->
+        <section class="footer-section">
+            <h3>Central de Relacionamento</h3>
+            <p><strong>ATENDIMENTO</strong> - 06h00 às 22h00</p>
+            <p>Capitais e regiões metropolitanas:</p>
+            <button>9999-9999</button>
+            <button>9999-9999</button>
+            <p>Interior e demais localidades:</p>
+            <button>9999-9999</button>
+            <p>WhatsApp:</p>
+            <button>9999-9999</button>
+            <button>Entre em contato conosco</button>
+        </section>
+
+        <!-- Seção de Ouvidoria -->
+        <section class="footer-section">
+            <h3>Ouvidoria</h3>
+            <p><strong>SEGUNDA À SEXTA</strong> - 9:15 às 17:30<br>Exceto feriados</p>
+            <p>Todas as regiões:</p>
+            <button>0800-999-999</button>
+            <p>Deficiência auditiva e de fala:</p>
+            <button>0800-999-999</button>
+            <button>Entre em contato conosco</button>
+        </section>
+
+        <!-- Ícones de Redes Sociais -->
+        <section class="footer-section social-icons-container">
+            <h3>Siga-nos</h3>
+            <ul class="social-icons">
+                <li><a href="https://www.facebook.com" class="social-icon" aria-label="Facebook"><img src="img/media-social-icons/facebook.png" alt="Facebook"></a></li>
+                <li><a href="https://www.youtube.com" class="social-icon" aria-label="YouTube"><img src="img/media-social-icons/youtube.png" alt="YouTube"></a></li>
+                <li><a href="https://www.linkedin.com" class="social-icon" aria-label="LinkedIn"><img src="img/media-social-icons/linkedin.png" alt="LinkedIn"></a></li>
+                <li><a href="https://www.x.com" class="social-icon" aria-label="Twitter"><img src="img/media-social-icons/twitter-x.png" alt="Twitter"></a></li>
+                <li><a href="https://www.instagram.com" class="social-icon" aria-label="Instagram"><img src="img/media-social-icons/instagram.png" alt="Instagram"></a></li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- Rodapé inferior -->
+    <div class="footer-bottom">
+        <p>©2024 DriveWay - Todos os direitos reservados CNPJ: 12.345.678/9999-10</p>
+    </div>
+</footer>    
+<script src="script.js"></script>
+</body>
+</html>
